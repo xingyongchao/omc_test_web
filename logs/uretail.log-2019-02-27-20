@@ -1,0 +1,11 @@
+[2019-02-27 20:19:48.283] [WARN] uretail - ::1 - - "GET / HTTP/1.1" 302 19ms 45b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
+[2019-02-27 20:19:48.289] [WARN] uretail - ::1 - - "GET /portal HTTP/1.1" 302 2ms 43b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
+[2019-02-27 20:19:48.341] [INFO] uretail - ::1 - - "GET /login HTTP/1.1" 200 51ms -b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
+[2019-02-27 20:19:51.259] [INFO] uretail - 请求地址：http://127.0.0.1:8080/user/login?terminaltype=PC
+[2019-02-27 20:19:51.260] [INFO] uretail - 请求参数：{"username":"jinyidemotest","password":"123456","loginTime":"2019-02-27","rememberUser":true}
+[2019-02-27 20:19:51.265] [INFO] uretail - 返回数据：{"code":500,"message":"FetchError: request to http://127.0.0.1:8080/user/login?terminaltype=PC failed, reason: connect ECONNREFUSED 127.0.0.1:8080"}
+[2019-02-27 20:19:51.267] [INFO] uretail - ::1 - - "POST /user/authorize?terminalType=1 HTTP/1.1" 200 22ms 148b "http://localhost:3003/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
+[2019-02-27 20:56:17.815] [INFO] uretail - 请求地址：http://127.0.0.1:8080/user/login?terminaltype=PC
+[2019-02-27 20:56:17.817] [INFO] uretail - 请求参数：{"username":"jinyidemotest","password":"123456","loginTime":"2019-02-27","rememberUser":true}
+[2019-02-27 20:56:17.821] [INFO] uretail - 返回数据：{"code":500,"message":"FetchError: request to http://127.0.0.1:8080/user/login?terminaltype=PC failed, reason: connect ECONNREFUSED 127.0.0.1:8080"}
+[2019-02-27 20:56:17.823] [INFO] uretail - ::1 - - "POST /user/authorize?terminalType=1 HTTP/1.1" 200 14ms 148b "http://localhost:3003/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"

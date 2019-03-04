@@ -1,0 +1,83 @@
+.uretail-print-topmenu {
+    margin: 0 20px;
+    .ant-btn{
+        background: #f11d13;
+        border-color: #f11d13;
+        color: white;
+        float: right;
+        &:hover{background: #f11d13;border-color: #f11d13;color: #333;}
+    }
+}
+
+
+.print-container {
+    .ant-anchor-ink{display: none;}
+    .ant-anchor-link{
+        padding: 0 0 0 0;
+    }
+    padding-top: 20px;
+}
+.uretail-print-topHeader{
+    background: #f5f8fc;margin:0px 24px 10px;padding:15px 17px 10px;z-index: 99;
+    .ant-row{
+        height: 100%;
+    }
+    .topHeader-item{
+        color: #333;cursor: pointer;height: 100%;font-size:12px;max-width:110px;
+        div:first-child{height: 100%;}
+        .ant-anchor-link{text-align: center;border: 1px solid #ced0d9;border-radius: 2px;line-height: 28px;background: #fff;margin:0 5px 5px 0;
+        &:hover{border-color: #505767;}
+        }
+    }
+    .topHeader-item-selected{
+        color: white;cursor: pointer;height: 100%;font-size:12px;max-width:110px;
+        div:first-child{height: 100%;}
+        .ant-anchor-link{text-align: center;border-radius: 2px;line-height: 28px;background: #505767;border:1px solid #505767;margin:0 5px 5px 0;
+        a{
+            color: #fff;
+            &:hover{color: #fff;}
+            &:focus{
+                text-decoration: none;
+            }
+        }
+    }
+ }
+    a.ant-anchor-link-title:hover{
+        color: #505767
+    }
+}
+
+.uretail-print-body{
+    // margin: 0px 24px 0;
+    margin-left: 24px;
+    overflow-y: auto;
+    // height: calc(~'100% - 150px')!important;
+    .uretail-print-list{
+        h3{font-size: 16px;color: #333;line-height: 48px; margin-top: 13px;}
+    }
+    .print-card{
+        border: 1px solid #dbe0e5;padding:14px;margin:0 15px 15px 0;height:108px;position:relative;
+        .print-card-btn-precut{
+            position: absolute;bottom:0;right:0;width: 34px; height: 34px;
+        }
+        .print-card-btn-setDefault{
+            position: absolute;top:0;right:6px;display:none;
+            .ant-btn{height: 18px;line-height: 18px; font-size: 12px;padding:0 10px;color:#fff;border: none;background: rgba(180,160,120,.6);border-radius: 2px;border-top-left-radius: 0;border-top-right-radius: 0;}
+
+        }
+        .print-card-title{font-size: 16px; color: #333;line-height: 36px;margin: 6px auto 20px;height: 36px;overflow: hidden;width: 200px;}
+        .print-card-operation{
+            color:#e7e7e7;
+            a{margin: 0 10px;color:#666;}
+        }
+        .print-card-btn-default{
+            position: absolute;top:0;right:6px;
+            .ant-btn{height: 18px;line-height: 18px; font-size: 12px;padding:0 10px;color:#fff;border: none;background: rgba(180,160,120,1);border-radius: 2px;border-top-left-radius: 0;border-top-right-radius: 0;}
+        }
+        border-radius: 2px;text-align: center;
+        &:hover{border-color: #9aa7bb;box-shadow: 1px 0 10px rgba(0,0,0,.1);
+            .print-card-btn-setDefault{display: block;}
+
+        }
+    };
+}

@@ -1,0 +1,77 @@
+{
+  "status": 1,
+  "data": {
+    "userId": "cec83479-ebf2-44f4-9568-a9c460b208ef",
+    "roleId": "c1add0ff-4135-4459-81b6-1583814d30a6",
+    "serviceIsolate": [
+      {
+        "createTime": 1539756248000,
+        "modifiedTime": 1539756248000,
+        "ts": 1539756248000,
+        "creator": "刘秀",
+        "modifier": "刘秀",
+        "tenantId": null,
+        "serviceIsolateId": "75d70ab1-d1d2-11e8-93fe-064602000173",
+        "isolateId": "orgdept",
+        "serviceIsolateName": "组织部门",
+        "refCode": "authadminorg",
+        "translTarget": null,
+        "fullClassName": null,
+        "serviceCode": "HRTD020",
+        "rule": true,
+        "resources": [
+          {
+            "id": "06e76004-2c31-424f-8214-0c966fc2f35522",
+            "resourceId": "b59f748ba6f74f78825f8eaa6f5berr190",
+            "resourceName": "20180929默认部门"
+          },
+          {
+            "id": "06e76004-2c31-424f-8214-0c966fc2f35511",
+            "resourceId": "b59f748ba6f74f78825f8eaa6f5bgge190",
+            "resourceName": "2默认部门222"
+          },
+          {
+            "id": "06e76004-2c31-424f-8214-0c966fc2f3535",
+            "resourceId": "b59f748ba6f74f78825f8eaa6f5bbbe190",
+            "resourceName": "2018q9默认部门"
+          }
+
+        ]
+      },
+      {
+        "createTime": 1539756248000,
+        "modifiedTime": 1539756248000,
+        "ts": 1539756248000,
+        "creator": "刘秀",
+        "modifier": "刘秀",
+        "tenantId": null,
+        "serviceIsolateId": "75d70ab1-d1d2-11e8-93fe-064602000173",
+        "isolateId": "orgdept",
+        "serviceIsolateName": "组织部门1",
+        "refCode": "authadminorg",
+        "translTarget": null,
+        "fullClassName": null,
+        "serviceCode": "HRTD020",
+        "rule": true,
+        "resources": [
+          {
+            "id": "06e76004-2c31-424f-8214-0c966fc2f35522",
+            "resourceId": "b59f748ba6f74f78825f8eaa6f5berr190",
+            "resourceName": "20180929默认部门"
+          },
+          {
+            "id": "06e76004-2c31-424f-8214-0c966fc2f35511",
+            "resourceId": "b59f748ba6f74f78825f8eaa6f5bgge190",
+            "resourceName": "2默认部门222"
+          },
+          {
+            "id": "06e76004-2c31-424f-8214-0c966fc2f3535",
+            "resourceId": "b59f748ba6f74f78825f8eaa6f5bbbe190",
+            "resourceName": "2018q9默认部门"
+          }
+
+        ]
+      }
+    ]
+  }
+}
