@@ -1,6 +1,0 @@
-[2019-02-28 09:34:33.879] [WARN] uretail - ::1 - - "GET / HTTP/1.1" 302 21ms 45b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
-[2019-02-28 09:34:33.885] [WARN] uretail - ::1 - - "GET /portal HTTP/1.1" 302 2ms 43b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
-[2019-02-28 09:34:33.936] [INFO] uretail - ::1 - - "GET /login HTTP/1.1" 200 50ms -b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
-[2019-02-28 09:34:36.841] [INFO] uretail - ::1 - - "GET /login HTTP/1.1" 200 20ms -b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
-[2019-02-28 09:34:44.316] [INFO] uretail - ::1 - - "GET /login HTTP/1.1" 200 18ms -b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"
-[2019-02-28 09:42:59.910] [INFO] uretail - ::1 - - "GET /login HTTP/1.1" 200 16ms -b "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36"

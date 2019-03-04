@@ -1,1 +1,0 @@
-export MobileReport from './mobileReport';
